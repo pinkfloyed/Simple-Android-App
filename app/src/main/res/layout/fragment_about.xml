@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LANGUAGE USED FOR THIS APP:\njava : 55%\nxml :45%"
+        android:gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:background="#3C000000"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MyApp.     This is my First App.I have learned about JAVA programming and XML to build this App.Also I have learnt html,css,javascript,node js,php for web development."
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:textColor="@color/purple_500"
+        android:textColorHighlight="@color/teal_700"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/purple_200"
+        android:layout_marginRight="5dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pogo"
+        android:layout_marginTop="355dp"
+        />
+
+
+</FrameLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gallery">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gallery">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="MY GALLERY\nHere are some pictures of Android Versions;"
+        android:gravity="left"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="28dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="italic"
+        android:textColor="@color/teal_700"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/e"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/c"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1000dp"
+        android:layout_marginBottom="250dp"
+        android:src="@drawable/a"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1200dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/b"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1700dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/d"/>
+
+
+</FrameLayout>
+</ScrollView>
